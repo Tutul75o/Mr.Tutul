@@ -309,7 +309,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ TUTUL ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ RINKU ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -390,22 +390,32 @@ def follow(ses,coki):
 logo = ("""\033[1;32m
        
 
-████████╗██╗   ██╗████████╗██╗   ██╗██╗     
-╚══██╔══╝██║   ██║╚══██╔══╝██║   ██║██║     
-   ██║   ██║   ██║   ██║   ██║   ██║██║     
-   ██║   ██║   ██║   ██║   ██║   ██║██║     
-   ██║   ╚██████╔╝   ██║   ╚██████╔╝███████╗
-   ╚═╝    ╚═════╝    ╚═╝    ╚═════╝ ╚══════╝
+██████
+
+ _______      _            __               
+
+|_   __ \    (_)          [  |  _           
+
+  | |__) |   __   _ .--.   | | / ] __   _   
+
+  |  __ /   [  | [ `.-. |  | '' < [  | | |  
+
+ _| |  \ \_  | |  | | | |  | |`\ \ | \_/ |, 
+
+|____| |___|[___][___||__][__|  \_]'.__.'_/ 
+
+                                            
+
                                             \033
 __________________×______________________
   
-  Auther   :  Mr. TUTUL
+  Auther   :  Mr. Rinku
  
-  Github   :  Tutul75o
+  Github   :  Rinku
 
-  Facebook: Tutul Mr.    (50% Ok Account Open Just Now)❤️
+  Facebook: Rinku .    (50% Ok Account Open Just Now)❤️
 
-  WhatsApp: 01608843956
+
 __________________×______________________\033[1;37m""")
 
 class Main:
@@ -424,10 +434,10 @@ class Main:
 		print(" [6] 2004-2005 Cloning Paid")
 		print(" [7] 2006-2007 Cloning Paid")
 		print(" [E] Exit Programming\n")
-		TUTUL =input(" Choose : ")
-		if TUTUL in ["1", "01"]:
+		 =input(" Choose : ")
+		if RINKU in ["1", "01"]:
 			File()
-		if TUTUL in ["2", "02"]:
+		if RINKU in ["2", "02"]:
 			Public()
 		if TUTUL in ["3", "03"]:
 			os.system("python Dump.py")
@@ -1325,6 +1335,10 @@ def Subscraption():
 		name = input(" Your Name : ")
 		print ("")
 		input(" Press Enter To Send Key")
+		
+		
+		
+		
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
 		os.system('am start https://wa.me/+9779746491865?text=' + tks)
